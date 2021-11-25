@@ -56,6 +56,8 @@ public class Program
 					//go to method Main from class Exchange
 					Exchange.Main(Database, products);
 					break;
+				case "0":
+					return;
 				default:
 					//Unknow index of menu
 					break;
